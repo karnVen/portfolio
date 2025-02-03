@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+
+    height: 100%;
+    width: 100%;
+    background-color: rgb(189, 184, 184);
+    display: flex;
+    
+   
+}
+
+   
+    #left{
+        height: 100vh;
+        width: 30%;
+        /*background-color: red;*/
+        border-right: 1px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: fixed;
+        background-color: rgb(189, 184, 184);
+    
+}
+
+
+    #right{
+        height: 100vh;
+        width: 70%;
+        margin-left: 30%;
+        display: flex;
+        flex-direction: column;
+       
+      
+    }
+#image{
+    color: rgb(189, 184, 184);
+    background-image: url("mine (01).jpeg");
+    background-size: cover;
+    background-color:aqua;
+    width: 100%;
+    height: 260%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20% ;
+   
+    
+    
+}
+#me{
+   
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 4% 20px;
+    
+
+   
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Horizontal, Vertical, Blur, Spread, and Shadow Color */
+    
+    
+    
+    
+    
+    
+}
+h2{
+    text-decoration: underline;
+    
+}
+p{
+    padding: 10px 0px;
+    font-size: 20px;
+}
+#atakyahai{
+    
+    width: 100%;
+    height: 100%;
+    padding: 2% 20px;
+    background-color:rgb(189, 184, 184);
+   
+    
+      
+    
+}
+
+#img{
+   background-image: url("mine (1).png");
+    background-size: cover;
+    display: flex;
+    
+  
+    height: 225px;
+    width: 225px;
+    border-radius: 50%;
+    
+
+    
+    /* Center content (optional) */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+   
+   
+}
+#notion{
+    position : absolute;
+    font-size: 40px;
+    bottom: 31%;
+    left: 15%;
+    color: black;
+}
+
+#linkedin{
+    position : absolute;
+    font-size: 40px;
+    bottom: 31%;
+    right: 10%;
+    color: black;
+}
+#github{
+    position: absolute;
+    font-size: 40px;
+    bottom:23%;
+    left: 47%;
+    color: black;
+    
+}
+  
+#project{
+
+    width: 100%;
+    height: 100%;
+    padding: 2% 2%;
+    background-color:rgb(189, 184, 184);
+    
+    
+      
+
+}
+
+#current{
+    height: 100%;
+    width: 100%;
+   padding: 2% 2%;
+   background-color:rgb(189, 184, 184);
+      
+}
+
+#karan{
+    
+        position: absolute; 
+        top: 0; 
+        right: 0; 
+        margin: 10px; 
+        font-size: 110%;
+        text-decoration: underline;
+    
+   
+   
+}
+
+#kaala{
+    color: black;
+}
+#kla{
+    color: black;
+}
+#kala{
+    color: black;
+}
+
