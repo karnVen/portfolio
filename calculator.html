@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <style>
+        
+        .y{
+            background-color: rgb(241, 171, 7);
+            border: 2px solid black;
+        }
+        .g{
+            background-color: gray;
+            border: 2px solid black;
+        }
+        html{
+            background-color: black;
+        }
+        button{
+            border-radius: 50%;
+            font-size: 25px;
+            justify-content: space-around;
+        }
+    </style>
+
+</head>
+<body>
+    <button class="g" onclick="cr(1);">1</button>
+
+<button class="g" onclick="cr(2);">2</button>
+
+<button class="g" onclick="cr(3);">3</button>
+
+<button class="y" onclick="cr(' + ');">+</button><br>
+
+<button class="g" onclick="cr(4);">4</button>
+
+<button class="g" onclick="cr(5);">5</button>
+
+<button class="g" onclick="cr(6);">6</button>
+
+<button class="y" onclick="cr(' - ');">-</button><br>
+
+<button class="g" onclick="cr(7);">7</button>
+
+<button class="g" onclick="cr(8);">8</button>
+
+<button class="g" onclick="cr(9);">9</button>
+
+<button class="y" onclick="cr(' * ');">*</button><br>
+
+<button class="g" onclick="cr(0);">0</button>
+
+
+<button class="g" onclick="cr(' . ');">.</button>
+
+<button class="y" onclick="cr(' / ');">/</button>
+
+
+    
+    <button class="y" onclick="cal=eval(cal);
+    console.log(cal);">=</button><br>
+
+<button class="y" onclick="cal='';
+    console.log(cal);">clear</button>
+</body>
+
+<script>
+    let cal= localStorage.getItem('karan')||'';
+function cr(num){
+    cal+=`${num}`;
+    console.log(cal);
+    localStorage.setItem('karan',cal);
+   
+}
+
+
+
+
+</script>
+</html>
